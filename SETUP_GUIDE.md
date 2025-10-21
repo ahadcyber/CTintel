@@ -1,4 +1,10 @@
-# CTI Dashboard - Setup Guide
+# CTI Dashboard 🛠️ Setup Guide
+
+**💡 Tip:** Skip setup entirely and use the live platform: [https://ctintel.onrender.com/](https://ctintel.onrender.com/)
+
+---
+
+## Local Installation:
 
 ## Quick Start Guide
 

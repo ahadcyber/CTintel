@@ -1,4 +1,12 @@
-# 🚀 Quick Start - CTI Dashboard
+# ⚡ Quick Start Guide
+
+## 🌐 Fastest Way: Use Live Platform!
+
+**No installation needed!** Access the live platform at: **[https://ctintel.onrender.com/](https://ctintel.onrender.com/)**
+
+---
+
+## Or Run Locally: CTI Dashboard
 
 Get your CTI Dashboard running in 5 minutes!
 

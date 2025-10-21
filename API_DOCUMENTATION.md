@@ -1,15 +1,19 @@
-# 📚 CTI Dashboard API Documentation
+# 📖 CTI Dashboard - API Documentation
 
-Complete API reference for the CTI Dashboard v2.0
+**Live Platform:** [https://ctintel.onrender.com/](https://ctintel.onrender.com/)
+
+Complete API reference for the Cyber Threat Intelligence Dashboard by **Abdul Ahad Rasool** v2.0
 
 ---
 
 ## 🌐 Base URL
 
 ```
-Local: http://127.0.0.1:5000
-Production: https://your-domain.com
+Local:      http://127.0.0.1:5000
+Production: https://ctintel.onrender.com
 ```
+
+**🎯 Try it live:** All endpoints below work at [https://ctintel.onrender.com](https://ctintel.onrender.com)
 
 ---
 

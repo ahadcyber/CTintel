@@ -1,6 +1,6 @@
 # Contributing to CTI Dashboard
 
-Thank you for your interest in contributing to the CTI Dashboard project! 🎉
+Thank you for your interest in contributing to the **CTI Dashboard**! This project was developed by **Abdul Ahad Rasool** as a comprehensive threat intelligence platform, and community contributions are welcome to enhance its capabilities.
 
 ## How to Contribute
 
@@ -71,6 +71,13 @@ Before submitting a PR:
 - Verify all ingestors fetch data
 - Check the dashboard displays correctly
 - Test search functionality
+
+## Contact
+
+For questions, collaboration, or security research inquiries:
+- 📧 Email: [ahadcyber7@gmail.com](mailto:ahadcyber7@gmail.com)
+- 💼 GitHub: [@AbdulAhadRasool](https://github.com/AbdulAhadRasool)
+- 🌐 Live Platform: [https://ctintel.onrender.com/](https://ctintel.onrender.com/)
 
 ## Questions?
 

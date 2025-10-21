@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: cti-dashboard
+    env: python
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: gunicorn web.app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: MONGO_URI
+        sync: false
+      - key: OTX_API_KEY
+        sync: false
+      - key: ABUSEIPDB_KEY
+        sync: false
+      - key: VIRUSTOTAL_API_KEY
+        sync: false
+    autoDeploy: true

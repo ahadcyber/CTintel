@@ -1,0 +1,126 @@
+2025-10-17 23:11:34,193 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.110:5000
+2025-10-17 23:11:34,193 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 23:12:21,851 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:12:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:12:27,056 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:12:27] "GET /api/health HTTP/1.1" 200 -
+2025-10-17 23:12:27,061 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:12:27] "GET /api/config HTTP/1.1" 200 -
+2025-10-17 23:12:27,089 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:12:27] "GET /api/sources HTTP/1.1" 200 -
+2025-10-17 23:12:27,119 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:12:27] "GET /api/types HTTP/1.1" 200 -
+2025-10-17 23:12:27,177 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:12:27] "GET /api/iocs?type=url&limit=5 HTTP/1.1" 200 -
+2025-10-17 23:12:27,232 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:12:27] "GET /api/docs HTTP/1.1" 200 -
+2025-10-17 23:13:13,014 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:13:13] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:13:15,837 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:13:15] "GET / HTTP/1.1" 200 -
+2025-10-17 23:13:16,154 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:13:16] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:13:16,250 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:13:16] "GET /api/iocs?limit=100 HTTP/1.1" 200 -
+2025-10-17 23:13:24,636 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:13:24] "GET /api/search?q=45 HTTP/1.1" 200 -
+2025-10-17 23:13:46,240 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:13:46] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:13:52,379 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:13:52] "GET /api/search?q=.in HTTP/1.1" 200 -
+2025-10-17 23:14:16,156 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:14:16] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:14:32,308 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:14:32] "GET /api/search?q=.com HTTP/1.1" 200 -
+2025-10-17 23:14:46,425 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:14:46] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:15:16,154 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:15:16] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:15:46,813 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:15:46] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:16:12,258 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:16:12] "GET / HTTP/1.1" 200 -
+2025-10-17 23:16:13,024 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:16:13] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:16:13,132 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:16:13] "GET /api/iocs?limit=100 HTTP/1.1" 200 -
+2025-10-17 23:16:16,728 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:16:16] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:16:27,141 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:16:27] "GET /api/search?q=12 HTTP/1.1" 200 -
+2025-10-17 23:16:43,726 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:16:43] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:16:46,252 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:16:46] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:17:02,632 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:17:02] "GET /api/search?q=com HTTP/1.1" 200 -
+2025-10-17 23:17:13,021 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:17:13] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:17:16,718 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:17:16] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:17:25,013 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:17:25] "GET /api/search?q=52 HTTP/1.1" 200 -
+2025-10-17 23:17:43,024 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:17:43] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:18:13,821 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:18:13] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:18:22,595 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:18:22] "GET / HTTP/1.1" 200 -
+2025-10-17 23:18:22,884 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:18:22] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:18:23,071 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:18:23] "GET /api/iocs?limit=100 HTTP/1.1" 200 -
+2025-10-17 23:18:53,719 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:18:53] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:19:24,608 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:19:24] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:19:53,727 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:19:53] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:19:57,669 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:19:57] "GET /api/iocs?limit=3 HTTP/1.1" 200 -
+2025-10-17 23:20:22,093 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:20:22] "GET / HTTP/1.1" 200 -
+2025-10-17 23:20:22,145 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:20:22] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:20:22,291 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:20:22] "GET /api/iocs?limit=100 HTTP/1.1" 200 -
+2025-10-17 23:21:40,889 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:21:40] "GET / HTTP/1.1" 200 -
+2025-10-17 23:21:41,366 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:21:41] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:21:42,862 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:21:42] "GET /api/iocs?limit=100 HTTP/1.1" 200 -
+2025-10-17 23:22:11,720 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:22:11] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:22:34,624 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.110:5000
+2025-10-17 23:22:34,624 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 23:22:41,805 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:22:41] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:23:11,719 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:23:11] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:23:41,807 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:23:41] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:24:11,723 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:24:11] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:24:41,818 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:24:41] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:25:21,731 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:25:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:26:21,833 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:26:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:27:22,104 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:27:22] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:28:21,732 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:28:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:29:21,801 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:29:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:29:49,937 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:29:49] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:29:53,461 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:29:53] "GET / HTTP/1.1" 200 -
+2025-10-17 23:29:53,782 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:29:53] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:29:53,886 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:29:53] "GET /api/iocs?limit=100 HTTP/1.1" 200 -
+2025-10-17 23:30:25,069 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:30:25] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:30:54,728 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:30:54] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:31:24,725 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:31:24] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:31:54,814 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:31:54] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:32:24,730 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:32:24] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:32:54,804 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:32:54] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:33:56,797 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:33:56] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:35:21,837 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:35:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:36:22,065 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:36:22] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:36:24,397 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:36:24] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:36:41,143 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:36:41] "GET /api/search?q=52 HTTP/1.1" 200 -
+2025-10-17 23:36:48,772 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:36:48] "GET /api/search?q=.us HTTP/1.1" 200 -
+2025-10-17 23:36:53,784 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:36:53] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:37:02,007 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:37:02] "GET /api/search?q=lu HTTP/1.1" 200 -
+2025-10-17 23:37:06,242 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:37:06] "GET /api/search?q=luq HTTP/1.1" 200 -
+2025-10-17 23:37:14,083 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:37:14] "GET /api/iocs?limit=100 HTTP/1.1" 200 -
+2025-10-17 23:37:23,864 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:37:23] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:37:54,728 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:37:54] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:38:24,809 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:38:24] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:39:21,723 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:39:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:40:21,813 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:40:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:40:25,174 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:40:25] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:40:54,731 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:40:54] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:41:24,811 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:41:24] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:42:21,721 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:42:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:43:21,807 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:43:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:44:21,807 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:44:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:45:21,802 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:45:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:46:21,824 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:46:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:47:21,822 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:47:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:47:52,052 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.110:5000
+2025-10-17 23:47:52,053 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 23:48:21,819 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:48:21] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:48:35,374 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:48:35] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:48:37,291 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:48:37] "GET / HTTP/1.1" 200 -
+2025-10-17 23:48:37,610 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:48:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:48:37,723 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:48:37] "GET /api/iocs?limit=100 HTTP/1.1" 200 -
+2025-10-17 23:55:07,707 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:55:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:55:37,613 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:55:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:56:07,695 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:56:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:56:37,613 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:56:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:57:07,701 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:57:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:57:37,612 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:57:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:58:07,701 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:58:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:58:37,612 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:58:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:59:07,705 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:59:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-17 23:59:37,614 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:59:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-18 00:00:07,703 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 00:00:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-18 00:00:37,719 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 00:00:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-18 00:01:07,696 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 00:01:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-18 00:01:37,617 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 00:01:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-18 00:02:07,694 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 00:02:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-18 00:05:07,691 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 00:05:07] "GET /api/stats HTTP/1.1" 200 -

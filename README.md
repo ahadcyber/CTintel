@@ -305,7 +305,7 @@ Response Example:
 
 **Contact & Collaboration:**
 - 📧 Email: [ahadcyber7@gmail.com](mailto:ahadcyber7@gmail.com)
-- 💼 GitHub: [@AbdulAhadRasool](https://github.com/AbdulAhadRasool)
+- 💼 GitHub: [@ahadcyber](https://github.com/ahadcyber)
 - 🌐 Live Platform: [https://ctintel.onrender.com/](https://ctintel.onrender.com/)
 
 **Project Status:** ✅ Production-Ready & Actively Maintained  
@@ -332,6 +332,6 @@ Response Example:
 Interested in **collaboration**, **security research**, or have questions about the platform?
 
 📧 **Email:** [ahadcyber7@gmail.com](mailto:ahadcyber7@gmail.com)  
-💼 **GitHub:** [@AbdulAhadRasool](https://github.com/AbdulAhadRasool)  
+💼 **GitHub:** [@ahadcyber](https://github.com/ahadcyber)  
 🌐 **Live Demo:** [https://ctintel.onrender.com/](https://ctintel.onrender.com/)
 
